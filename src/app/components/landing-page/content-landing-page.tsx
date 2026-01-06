@@ -11,28 +11,28 @@ export default function ContentLandingPage() {
           alt="Top Bird One"
           width={43}
           height={14}
-          className="absolute top-[5.8vw] left-[-18vw] w-[2.2vw]"
+          className="absolute top-[5.6vw] left-[-17.2vw] w-[2.2vw]"
         />
         <Image
           src={TopBird.src}
           alt="Top Bird One"
           width={43}
           height={14}
-          className="absolute top-[7.8vw] left-[-7.5vw] w-[2.2vw]"
+          className="absolute top-[7.5vw] left-[-7vw] w-[2.2vw]"
         />
         <Image
           src={TopBird.src}
           alt="Top Bird One"
           width={43}
           height={14}
-          className="absolute top-[6.5vw] right-[-9vw] w-[2.2vw]"
+          className="absolute top-[6.2vw] right-[-8.2vw] w-[2.2vw]"
         />
         <Image
           src={TopBird.src}
           alt="Top Bird One"
           width={43}
           height={14}
-          className="absolute top-[14.5vw] right-[-11vw] w-[2.2vw]"
+          className="absolute top-[14.3vw] right-[-10.2vw] w-[2.2vw]"
         />
         {/* Top Birds */}
         <div className="shadow flex bg-white rounded-[200px] px-[0.4vw] py-[0.2vw] gap-[0.5vw]">
@@ -63,7 +63,7 @@ export default function ContentLandingPage() {
           <button className="bg-[var(--primary)] text-white h-[2.3vw] px-[1vw] flex items-center justify-center rounded-[100px] cursor-pointer">
             Get Started
           </button>
-          <button className="text-black border border-[#6D778F] h-[2.3vw] px-[1vw] flex items-center justify-center rounded-[100px] cursor-pointer gap-[0.5vw]">
+          <button className="text-black border border-[0.5px] border-[#6D778F] h-[2.3vw] px-[1vw] flex items-center justify-center rounded-[100px] cursor-pointer gap-[0.5vw]">
             <Image
               src={AppleIcon.src}
               alt="Apple Icon"
@@ -71,7 +71,7 @@ export default function ContentLandingPage() {
               width={19}
               height={22}
             />
-            <div className="w-[1px] h-[16px] bg-[#6D778F]" />
+            <div className="w-[0.5px] h-[16px] bg-[#6D778F]" />
             <div>Download the Mac app</div>
           </button>
         </div>
