@@ -1,0 +1,10 @@
+export { default as CoupIcon } from "./coup-icon.svg";
+export { default as MessageIcon } from "./message-icon.svg";
+export { default as AppleIcon } from "./apple-icon.svg";
+export { default as CloudsBackground } from "./clounds-background.svg";
+export { default as ScrollDownIcon } from "./scroll-down-icon.svg";
+export { default as TopBird } from "./top-bird.svg";
+export { default as BottomBirdOne } from "./bottom-bird-one.svg";
+export { default as BottomBirdTwo } from "./bottom-bird-two.svg";
+export { default as BottomBirdThree } from "./bottom-bird-three.svg";
+export { default as BottomBirdFour } from "./bottom-bird-four.svg";
