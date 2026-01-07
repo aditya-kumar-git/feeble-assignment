@@ -48,7 +48,7 @@ export default function BackgroundLandingPage() {
           initial={{ opacity: 0, y: 800 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5, ease: "easeOut", delay: 0.6 }}
-          className="absolute md:translate-x-[-28vw] translate-x-[-35vw] translate-y-[15vw]"
+          className="absolute md:translate-x-[-28vw] translate-x-[-35vw] md:translate-y-[4vw] translate-y-[15vw]"
         >
           <Image
             src={BottomBirdOne.src}
@@ -90,7 +90,7 @@ export default function BackgroundLandingPage() {
           initial={{ opacity: 0, y: 800 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.6, ease: "easeOut", delay: 0.6 }}
-          className="absolute translate-x-[35.5vw] translate-y-[25vw]"
+          className="absolute translate-x-[35.5vw] md:translate-y-[2.4vw] translate-y-[25vw]"
         >
           <Image
             src={BottomBirdFour.src}
