@@ -27,7 +27,7 @@ export default function BackgroundLandingPage() {
             alt="OutOfScreenBirdLeft"
             width={104}
             height={77}
-            className="w-[5.3vw]"
+            className="w-[72px] md:w-[5.3vw]"
           />
         </motion.div>
         <motion.div
@@ -41,35 +41,35 @@ export default function BackgroundLandingPage() {
             alt="OutOfScreenBirdRight"
             width={104}
             height={77}
-            className="w-[5.3vw]"
+            className="w-[72px] md:w-[5.3vw]"
           />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 800 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5, ease: "easeOut", delay: 0.6 }}
-          className="absolute translate-x-[-28vw] translate-y-[4vw]"
+          className="absolute md:translate-x-[-28vw] translate-x-[-35vw] translate-y-[4vw]"
         >
           <Image
             src={BottomBirdOne.src}
             alt="Bottom Bird One"
             width={104}
             height={77}
-            className="w-[5.3vw]"
+            className="w-[52px] md:w-[5.3vw]"
           />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 800 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.6, ease: "easeOut", delay: 0.6 }}
-          className="absolute translate-x-[-13vw] translate-y-[1vw] "
+          className="absolute md:translate-x-[-13vw] translate-x-[-17vw] translate-y-[1vw] "
         >
           <Image
             src={BottomBirdTwo.src}
             alt="Bottom Bird Two"
             width={88}
             height={57}
-            className="w-[4.5vw]"
+            className="w-[44px] md:w-[4.5vw]"
           />
         </motion.div>
         <motion.div
@@ -83,7 +83,7 @@ export default function BackgroundLandingPage() {
             alt="Bottom Bird Three"
             width={88}
             height={57}
-            className="w-[6.5vw]"
+            className="w-[64px] md:w-[6.5vw]"
           />
         </motion.div>
         <motion.div
@@ -97,7 +97,7 @@ export default function BackgroundLandingPage() {
             alt="Bottom Bird Four"
             width={88}
             height={57}
-            className=" w-[6.5vw]"
+            className="w-[64px] md:w-[6.5vw]"
           />
         </motion.div>
         <motion.div
@@ -120,7 +120,7 @@ export default function BackgroundLandingPage() {
         transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
         className="flex flex-col items-center justify-center absolute gap-[0.3vw] bottom-[4vw] left-0 w-full"
       >
-        <div className="text-[0.9vw] font-[500] text-[#1E2025]">
+        <div className="md:text-[0.9vw] text-[12px] font-[500] text-[#1E2025]">
           Scroll to learn more
         </div>
         <Image
@@ -128,7 +128,7 @@ export default function BackgroundLandingPage() {
           alt="Scroll Down Icon"
           width={32}
           height={32}
-          className="w-[1.5vw]"
+          className="w-[16px] md:w-[1.5vw]"
         />
       </motion.div>
     </div>

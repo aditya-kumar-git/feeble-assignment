@@ -4,7 +4,7 @@ import Topbar from "@/app/components/topbar/topbar";
 
 export default function Home() {
   return (
-    <div className="font-sans bg-[var(--background)] relative min-h-screen relative">
+    <div className="font-sans bg-[var(--background)] relative min-h-screen relative flex flex-col overflow-x-hidden">
       <Topbar />
       <ContentLandingPage />
       <BackgroundLandingPage />
