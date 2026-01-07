@@ -48,7 +48,7 @@ export default function BackgroundLandingPage() {
           initial={{ opacity: 0, y: 800 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5, ease: "easeOut", delay: 0.6 }}
-          className="absolute md:translate-x-[-28vw] translate-x-[-35vw] translate-y-[4vw]"
+          className="absolute md:translate-x-[-28vw] translate-x-[-35vw] translate-y-[15vw]"
         >
           <Image
             src={BottomBirdOne.src}
@@ -90,7 +90,7 @@ export default function BackgroundLandingPage() {
           initial={{ opacity: 0, y: 800 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.6, ease: "easeOut", delay: 0.6 }}
-          className="absolute translate-x-[35.5vw] translate-y-[2.4vw]"
+          className="absolute translate-x-[35.5vw] translate-y-[25vw]"
         >
           <Image
             src={BottomBirdFour.src}
@@ -108,7 +108,7 @@ export default function BackgroundLandingPage() {
           <Image
             src={CloudsBackground.src}
             alt="Clouds Background"
-            className="w-full"
+            className="md:w-full h-[320px] md:h-unset"
             width={1440}
             height={320}
           />

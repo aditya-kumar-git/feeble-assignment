@@ -17,7 +17,7 @@ export default function ContentLandingPage() {
           initial={{ opacity: 0, y: 800 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
-          className="absolute top-[100] left-[-20] md:top-[5.6vw] md:left-[-17.2vw] "
+          className="absolute top-[100] left-[20] md:top-[5.6vw] md:left-[-17.2vw] "
         >
           <Image
             src={TopBird.src}
@@ -31,7 +31,7 @@ export default function ContentLandingPage() {
           initial={{ opacity: 1, y: 800 }}
           animate={{ opacity: 0, y: 0 }}
           transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
-          className="absolute top-[180] left-[0]  md:top-[7.5vw] md:left-[-7vw]"
+          className="absolute top-[200] left-[20]  md:top-[7.5vw] md:left-[-7vw]"
         >
           <Image
             src={TopBird.src}
@@ -46,7 +46,7 @@ export default function ContentLandingPage() {
           alt="Top Bird Two"
           width={43}
           height={14}
-          className="absolute top-[180] left-[0]  md:top-[7.5vw] md:left-[-7vw] w-[40px] md:w-[2.2vw]"
+          className="absolute top-[200] left-[20]  md:top-[7.5vw] md:left-[-7vw] w-[40px] md:w-[2.2vw]"
         />
         <motion.div
           initial={{ opacity: 0, y: 800 }}
@@ -66,7 +66,7 @@ export default function ContentLandingPage() {
           initial={{ opacity: 1, y: 800 }}
           animate={{ opacity: 0, y: 0 }}
           transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
-          className="absolute top-[30] right-[0]  md:top-[14.3vw] md:right-[-10.2vw]"
+          className="absolute top-[70] right-[20]  md:top-[14.3vw] md:right-[-10.2vw]"
         >
           <Image
             src={TopBird.src}
@@ -81,7 +81,7 @@ export default function ContentLandingPage() {
           alt="Top Bird Four"
           width={43}
           height={14}
-          className="absolute top-[30] right-[0]  md:top-[14.3vw] md:right-[-10.2vw] w-[40px] md:w-[2.2vw]"
+          className="absolute top-[70] right-[20]  md:top-[14.3vw] md:right-[-10.2vw] w-[40px] md:w-[2.2vw]"
         />
 
         {/* Top Birds */}
