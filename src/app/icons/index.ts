@@ -8,3 +8,5 @@ export { default as BottomBirdOne } from "./bottom-bird-one.svg";
 export { default as BottomBirdTwo } from "./bottom-bird-two.svg";
 export { default as BottomBirdThree } from "./bottom-bird-three.svg";
 export { default as BottomBirdFour } from "./bottom-bird-four.svg";
+export { default as OutOfScreenBirdLeft } from "./out-of-screen-bird-left.svg";
+export { default as OutOfScreenBirdRight } from "./out-of-screen-bird-right.svg";

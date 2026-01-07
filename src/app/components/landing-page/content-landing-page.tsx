@@ -1,39 +1,89 @@
+"use client";
 import { AppleIcon, MessageIcon, TopBird } from "@/app/icons";
+import { motion } from "motion/react";
 import Image from "next/image";
 
 export default function ContentLandingPage() {
   return (
     <div className="mt-[3.5vw] flex items-center justify-center">
-      <div className="flex flex-col items-center justify-center gap-[24px] w-fit relative">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
+        className="flex flex-col items-center justify-center gap-[24px] w-fit relative"
+      >
         {/* Top Birds */}
+        <motion.div
+          initial={{ opacity: 0, y: 800 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
+          className="absolute top-[5.6vw] left-[-17.2vw] "
+        >
+          <Image
+            src={TopBird.src}
+            alt="Top Bird One"
+            width={43}
+            height={14}
+            className="w-[2.2vw]"
+          />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 1, y: 800 }}
+          animate={{ opacity: 0, y: 0 }}
+          transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
+          className="absolute top-[7.5vw] left-[-7vw]"
+        >
+          <Image
+            src={TopBird.src}
+            alt="Top Bird Two"
+            width={43}
+            height={14}
+            className="w-[2.2vw]"
+          />
+        </motion.div>
         <Image
           src={TopBird.src}
-          alt="Top Bird One"
-          width={43}
-          height={14}
-          className="absolute top-[5.6vw] left-[-17.2vw] w-[2.2vw]"
-        />
-        <Image
-          src={TopBird.src}
-          alt="Top Bird One"
+          alt="Top Bird Two"
           width={43}
           height={14}
           className="absolute top-[7.5vw] left-[-7vw] w-[2.2vw]"
         />
+        <motion.div
+          initial={{ opacity: 0, y: 800 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
+          className="absolute top-[6.2vw] right-[-8.2vw]  "
+        >
+          <Image
+            src={TopBird.src}
+            alt="Top Bird Three"
+            width={43}
+            height={14}
+            className="w-[2.2vw]"
+          />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 1, y: 800 }}
+          animate={{ opacity: 0, y: 0 }}
+          transition={{ duration: 1.5, ease: "easeOut", delay: 0.3 }}
+          className="absolute top-[14.3vw] right-[-10.2vw]"
+        >
+          <Image
+            src={TopBird.src}
+            alt="Top Bird Four"
+            width={43}
+            height={14}
+            className=" w-[2.2vw]"
+          />
+        </motion.div>
         <Image
           src={TopBird.src}
-          alt="Top Bird One"
-          width={43}
-          height={14}
-          className="absolute top-[6.2vw] right-[-8.2vw] w-[2.2vw]"
-        />
-        <Image
-          src={TopBird.src}
-          alt="Top Bird One"
+          alt="Top Bird Four"
           width={43}
           height={14}
           className="absolute top-[14.3vw] right-[-10.2vw] w-[2.2vw]"
         />
+
         {/* Top Birds */}
         <div className="element-shadow flex bg-white rounded-[200px] px-[0.4vw] py-[0.2vw] gap-[0.5vw]">
           <Image
@@ -75,7 +125,7 @@ export default function ContentLandingPage() {
             <div>Download the Mac app</div>
           </button>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

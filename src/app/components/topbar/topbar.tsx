@@ -1,9 +1,16 @@
+"use client";
 import { CoupIcon } from "@/app/icons";
 import Image from "next/image";
+import { motion } from "motion/react";
 
 export default function Topbar() {
   return (
-    <div className="flex items-center justify-center pt-[30px] pb-0 bg-full ">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
+      className="flex items-center justify-center pt-[30px] pb-0 bg-full "
+    >
       <div className="element-shadow w-[62.5vw] bg-white rounded-[200px] py-[0.9vw] px-[1.2vw] flex items-center justify-between">
         <Image
           src={CoupIcon.src}
@@ -38,6 +45,6 @@ export default function Topbar() {
           </span>
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 }
