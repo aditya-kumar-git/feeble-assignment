@@ -48,7 +48,7 @@ export default function BackgroundLandingPage() {
           height={320}
         />
       </div>
-      <div className="flex flex-col items-center justify-center absolute bottom-[4vw] left-0 w-full">
+      <div className="flex flex-col items-center justify-center absolute gap-[0.3vw] bottom-[4vw] left-0 w-full">
         <div className="text-[0.9vw] font-[500] text-[#1E2025]">
           Scroll to learn more
         </div>

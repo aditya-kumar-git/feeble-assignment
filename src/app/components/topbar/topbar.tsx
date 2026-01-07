@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Topbar() {
   return (
     <div className="flex items-center justify-center pt-[30px] pb-0 bg-full ">
-      <div className="element-shadow w-[62vw] bg-white rounded-[200px] py-[0.8vw] px-[1.2vw] flex items-center justify-between">
+      <div className="element-shadow w-[62.5vw] bg-white rounded-[200px] py-[0.9vw] px-[1.2vw] flex items-center justify-between">
         <Image
           src={CoupIcon.src}
           alt="Coup Icon"
@@ -28,8 +28,14 @@ export default function Topbar() {
             </li>
           </ul>
         </nav>
-        <button className="bg-[var(--primary)] text-white text-[0.9vw] font-medium px-[0.8vw] py-[0.5vw] flex items-center justify-center rounded-[100px] cursor-pointer">
-          Contact Sales
+        <button className="element-shadow-hover relative overflow-hidden bg-[var(--primary)] text-white text-[0.8vw] font-medium px-[0.9vw] py-[0.5vw] flex items-center justify-center rounded-[100px] cursor-pointer transition-colors duration-300 group">
+          <span
+            className="absolute right-0 top-1/2 -translate-y-1/2 w-0 h-[180%] bg-white rounded-full transition-all duration-400 ease-in group-hover:w-[200%] group-hover:right-[-50%] z-0"
+            aria-hidden="true"
+          />
+          <span className="relative z-10 transition-colors duration-300 group-hover:text-[var(--primary)]">
+            Contact Sales
+          </span>
         </button>
       </div>
     </div>

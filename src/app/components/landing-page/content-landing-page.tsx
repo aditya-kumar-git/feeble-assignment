@@ -35,11 +35,11 @@ export default function ContentLandingPage() {
           className="absolute top-[14.3vw] right-[-10.2vw] w-[2.2vw]"
         />
         {/* Top Birds */}
-        <div className="shadow flex bg-white rounded-[200px] px-[0.4vw] py-[0.2vw] gap-[0.5vw]">
+        <div className="element-shadow flex bg-white rounded-[200px] px-[0.4vw] py-[0.2vw] gap-[0.5vw]">
           <Image
             src={MessageIcon.src}
             alt="Message Icon"
-            className="w-[1.5vw]"
+            className="w-[1.6vw]"
             width={32}
             height={17}
           />
@@ -63,11 +63,11 @@ export default function ContentLandingPage() {
           <button className="bg-[var(--primary)] text-white h-[2.3vw] px-[1vw] flex items-center justify-center rounded-[100px] cursor-pointer">
             Get Started
           </button>
-          <button className="text-black border border-[0.5px] border-[#6D778F] h-[2.3vw] px-[1vw] flex items-center justify-center rounded-[100px] cursor-pointer gap-[0.5vw]">
+          <button className="text-black border border-[0.5px] border-[#6D778F] h-[2.3vw] px-[1vw] flex items-center justify-center rounded-[100px] cursor-pointer gap-[0.6vw]">
             <Image
               src={AppleIcon.src}
               alt="Apple Icon"
-              className="w-[1vw]"
+              className="w-[1vw] translate-y-[-1px]"
               width={19}
               height={22}
             />
